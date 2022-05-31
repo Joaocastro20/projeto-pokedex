@@ -1,0 +1,11 @@
+<div *ngFor="let pokemons of pokemon; let i = index">
+  <div *ngIf="i < 10">
+    <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/00{{i+1}}.png">
+  </div>
+  <div *ngIf="i > 10 && i < 100">
+    <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/0{{i+1}}.png">
+  </div>
+  <div *ngIf="i > 100">
+    <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/{{i+1}}.png">
+  </div>
+</div>
