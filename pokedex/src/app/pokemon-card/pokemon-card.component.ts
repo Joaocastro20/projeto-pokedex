@@ -8,6 +8,4 @@ import { Component} from '@angular/core';
 export class PokemonCardComponent{
  pokemon:any = Object.keys(new Array(900).fill(null));
 
-
-
 }
